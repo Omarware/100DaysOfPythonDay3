@@ -32,7 +32,7 @@ first_choice = input("You're at a crossroad. Where do you want to go? Type left 
 if first_choice != "left":
   print("Fall into a Hole. Game Over")
 else:
-  second_choice = input("You've come to a lake. There is an island in the middle of the lake. \nType wait to wait for a boat. Type swim to swim across. ")
+  second_choice = input("You've come to a lake. There is an island in the middle of the lake. \nType wait to wait for a boat. Type swim to swim across: ")
   if second_choice != "wait":
     print("Attacked by a trout. Game over")
   else:
