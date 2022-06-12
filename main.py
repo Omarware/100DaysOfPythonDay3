@@ -27,7 +27,7 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-first_choice = input("You're at a crossroad. Where do you want to go? Type left or right ")
+first_choice = input("You're at a crossroad. Where do you want to go? Type left or right: ")
 
 if first_choice != "left":
   print("Fall into a Hole. Game Over")
