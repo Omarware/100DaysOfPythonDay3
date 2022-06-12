@@ -36,7 +36,7 @@ else:
   if second_choice != "wait":
     print("Attacked by a trout. Game over")
   else:
-    third_choice = input("You arrive at the island unharmed. There is a house with 3 doors. \nOne red, one yellow and one blue. Which colour do you choose? ")
+    third_choice = input("You arrive at the island unharmed. There is a house with 3 doors. \nOne red, one yellow and one blue. Which colour do you choose?: ")
     if third_choice == "red":
       print("Burned by fire. Game Over")
     elif third_choice == "blue":
